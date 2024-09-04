@@ -13,3 +13,5 @@ HTML, CSS, JavaScript
 Geminii API
 Spline for 3D robot integration
 Responsive design principles
+
+View the web app: https://juno-chatbot.netlify.app/
