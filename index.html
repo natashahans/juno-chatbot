@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- SEO -->
+
+    <meta
+      name="description"
+      content="Juno is an intelligent chatbot that offers personalized support and answers to your queries. Experience seamless conversations with Juno."
+    />
+    <meta
+      name="keywords"
+      content="chatbot, AI assistant, Juno, virtual assistant, customer support"
+    />
+    <meta name="author" content="Your Name" />
+    <meta property="og:title" content="Juno - Your Intelligent Chatbot" />
+    <meta
+      property="og:description"
+      content="Juno is a smart chatbot designed to assist you with personalized support and answers. Discover a new way to interact with technology."
+    />
+
+    <!-- Favicon for all platforms -->
+    <link rel="icon" type="image/x-icon" href="main-favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon --16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon --32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="apple-touch-favicon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="android-chrome--192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="128x128"
+      href="android-chrome--512x512.png"
+    />
+    <link rel="manifest" href="mysite.webmanifest" />
+    <!-- ------------------------------- -->
+
+    <!-- remix icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- google font icon link -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Juno | Your Intelligent AI Chatbot 🤖</title>
+  </head>
+  <body>
+    <a href="https://www.instagram.com/codewith.nat/" target="_blank"
+      ><i class="ri-instagram-fill" id="insta"></i
+    ></a>
+    <div class="custom-cursor"></div>
+    <div class="logo">
+      <span class="material-symbols-outlined">smart_toy</span>
+      <p>JUNO</p>
+    </div>
+    <div class="heading-container" id="heading-container-left">
+      <h1 class="heading">Welcome to Juno</h1>
+      <p class="subheading-left">Your AI for Every Conversation</p>
+    </div>
+
+    <spline-viewer
+      url="https://prod.spline.design/ShbuDfWkxJRt-BwC/scene.splinecode"
+      id="robo-left"
+    ></spline-viewer>
+
+    <button class="chat-btn">
+      Let's Chat
+      <span class="material-symbols-outlined"> arrow_forward </span>
+    </button>
+
+    <section>
+      <div class="chatbot">
+        <header>
+          <h2>Juno</h2>
+          <span class="material-symbols-outlined close-btn">close</span>
+        </header>
+        <ul class="chatbox">
+          <li class="chat incoming">
+            <span class="material-symbols-outlined">smart_toy</span>
+            <p>
+              Hi there 👋<br />
+              How can I help you today?
+            </p>
+          </li>
+        </ul>
+
+        <div class="chat-input">
+          <textarea placeholder="Enter a message..." required></textarea>
+          <span id="send-btn" class="material-symbols-outlined">send</span>
+        </div>
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.9.23/build/spline-viewer.js"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
